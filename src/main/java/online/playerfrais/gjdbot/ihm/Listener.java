@@ -7,6 +7,7 @@ import java.util.Map;
 
 import net.dv8tion.jda.api.MessageBuilder;
 import net.dv8tion.jda.api.entities.Member;
+import net.dv8tion.jda.api.events.guild.GuildJoinEvent;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
@@ -23,6 +24,11 @@ public class Listener extends ListenerAdapter {
 		this.commands.put("ping", "Answers with pong.");
 		this.commands.put("avatar", "Get avatar url.");
 		this.version = version;
+	}
+
+	@Override
+	public void onGuildJoin(GuildJoinEvent event) {
+		event.getGuild().getTextChannels().get(0).sendMessage("Hello, use " + this.prefix + "help to learn what i can do!\nYou can also go to https://github.com/PlayerFre/GJDBot to learn more about me").queue();
 	}
 
 	@Override
