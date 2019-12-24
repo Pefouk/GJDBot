@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<bot-config>
+	<token>YOUR_TOKEN</token>
+	<prefix>YOUR_PREFIX</prefix>
+</bot-config>
