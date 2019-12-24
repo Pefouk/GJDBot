@@ -1,0 +1,21 @@
+plugins {
+  id 'java'
+  id 'application'
+  id 'com.github.johnrengelman.shadow' version '4.0.4'
+}
+
+mainClassName = 'online.playerfrais.gjdbot.ihm.Bot'
+
+version = '0.1'
+
+sourceCompatibility = 1.8
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'net.dv8tion:JDA:4.1.0_81'
+}
+
+compileJava.options.encoding = 'UTF-8'
