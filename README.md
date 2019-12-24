@@ -1,5 +1,5 @@
 [![LICENSE : MIT](https://img.shields.io/github/license/playerfre/GJDBot?style=for-the-badge)](https://github.com/PlayerFre/GJDBot/blob/master/LICENSE)
-![VERSION : 0.1](https://img.shields.io/github/v/release/Playefre/gjdbot?style=for-the-badge)
+![VERSION : 0.1](https://img.shields.io/github/v/release/playerfre/gjdbot?include_prereleases&style=for-the-badge)
 
 # GJDBot
 Written in java with [JDA](https://github.com/DV8FromTheWorld/JDA)
